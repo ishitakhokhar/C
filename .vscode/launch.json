@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Ishita/C/Programs/5.(Basic)",
-      "program": "d:/Ishita/C/Programs/5.(Basic)/build/Debug/outDebug",
+      "cwd": "d:/Ishita",
+      "program": "d:/Ishita/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
