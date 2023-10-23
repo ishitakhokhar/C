@@ -12,12 +12,12 @@ void main()
         {
             if (i % 2 != 0)
             {
-                printf(" %d ", n);
+                printf(" %d", n);
                 n++;
             }
             else
             {
-                printf(" %c ", c);
+                printf(" %c", c);
                 c++;
             }
         }
