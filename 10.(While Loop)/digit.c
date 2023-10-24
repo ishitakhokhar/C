@@ -1,4 +1,4 @@
-// Check whether the given number is Armstrong or not.
+// Print digits of given number.
 #include <stdio.h>
 void main()
 {
