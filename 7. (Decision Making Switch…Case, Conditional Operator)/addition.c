@@ -26,7 +26,7 @@ void main()
 		}
 		else
 		{
-			printf("devided:%d", a - b);
+			printf("devided:%d", a /b);
 		}
 		break;
 	default:
