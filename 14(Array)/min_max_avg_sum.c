@@ -26,6 +26,6 @@ void main()
             max = arr[i];
         }
     }
-    avg = sum / n;
+    avg = (float)sum / n;
     printf("max=%d\nmin=%d\nsum=%d\navg=%f\n", max, min, sum, avg);
 }
