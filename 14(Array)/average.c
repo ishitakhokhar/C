@@ -6,6 +6,5 @@ void main()
     float avg;
     printf("Enter number : ");
     scanf("%d", &n);
-    int arr[n];
-    printf("Enter number :  ");
+    int arr[i];
 }

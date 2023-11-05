@@ -1,24 +1,24 @@
-// Read five person height and weight and count the number of person having height greater than 170 and
-// weight less than 50.
+//  Read five person height and weight and count the number of person having height greater than 170 and
+//  weight less than 50.
 #include <stdio.h>
 void main()
 {
-    int n, count = 0;
-    printf("Enter height and weight : ");
-    scanf("%d", &n);
-    int i, height[5], weight[5];
-    for (i = 0; i < 5; i++)
+    int i;
+    int arr1[5], arr2[5];
+    for (i = 1; i <= 5; i++)
     {
-        printf("height");
-        scanf("%d", &height[i]);
-        printf("weight");
-        scanf("%d", &weight[i]);
+        printf("Enter height of %d in cm : ", i);
+        scanf("%d", &arr1[i]);
+        printf("Enter weight of %d in kg : ", i);
+        scanf("%d", &arr2[i]);
     }
-    for (i = 0; i < 5; i++)
-        ;
-    if (height[i] > 170 && weight[i] < 50)
+    int count = 0;
+    for (i = 1; i <= 5; i++)
     {
-        count++;
+        if (arr1[i] > 170 && arr2[i] < 50)
+        {
+            count = count + 1;
+        }
     }
-    printf("height and weight=%d", count);
+    printf("number of person = %d", count);
 }
