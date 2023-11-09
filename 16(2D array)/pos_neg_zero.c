@@ -21,7 +21,7 @@ void main()
             {
                 neg++;
             }
-            else if (arr[i][j])
+            else if (arr[i][j]>0)
             {
                 pos++;
             }
