@@ -11,7 +11,7 @@ int fact(int n)
 		return n*fact(n-1);
 	}
 };
-int main()
+void main()
 {
 	int n,ans;
 	
@@ -22,5 +22,4 @@ int main()
 	
 	printf("Factorial=%d",ans);
 	
-	return 0;
 }
