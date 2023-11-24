@@ -1,5 +1,4 @@
 //  Return the maximum of three floating-point numbers.
-// Return the maximum of three floating-point numbers.
 #include <stdio.h>
 float max(float a, float b, float c)
 {
