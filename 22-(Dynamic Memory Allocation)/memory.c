@@ -23,7 +23,7 @@ void main()
         free(intv);
         free(charv);
     }
-    printf("Memory allocation for int.char,float variables succeeded");
+    printf("Memory allocation for int,char,float variables succeeded");
     free(intv);
     free(charv);
     free(floatv);
